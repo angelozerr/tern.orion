@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Tern - Orion Editor</title>
+	<style type="text/css" media="screen">	    
+		#editor {
+			//border: 1px solid teal;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			bottom: 0px;
+			right: 0px;
+			//margin: 20px;
+			margin: 0px;
+		}
+		
+		pre {
+			margin: 0px;
+		}
+	</style>  	
+	<!-- Tern JS -->
+	<script src="scripts/ternjs/acorn/acorn.js"></script>
+	<script src="scripts/ternjs/acorn/acorn_loose.js"></script>
+	<script src="scripts/ternjs/acorn/util/walk.js"></script>
+	<script src="scripts/ternjs/tern/lib/signal.js"></script>
+	<script src="scripts/ternjs/tern/lib/tern.js"></script>
+	<script src="scripts/ternjs/tern/lib/def.js"></script>
+	<script src="scripts/ternjs/tern/lib/comment.js"></script>
+	<script src="scripts/ternjs/tern/lib/infer.js"></script>
+	<!-- Orion -->
+	<link rel="stylesheet" type="text/css" href="scripts/orion/built-editor.css"/>
+	<script src="scripts/orion/built-editor.min.js"></script>
+	<!-- Orion & Tern -->
+	<script src="../lib/tern-orion.js"></script>
+
+</head>
+<body>
+	<pre id="editor">var elt = document.getElementById('xxx');</pre>
+	<script>
+	    require(["orion/editor/edit"], function(edit) {
+		var editor = edit({
+			lang: "js"
+			});
+		});	        
+	</script>	
+</body>
+</html>
