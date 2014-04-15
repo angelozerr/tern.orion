@@ -3,7 +3,7 @@ tern.orion
 
 [tern.js](https://github.com/marijnh/tern) is a stand-alone code-analysis engine for JavaScript written in Javascript.
 
-[Orion](http://www.eclipse.org/orion/) is an Open Source Platform For Cloud Based Development. It provides a a standalone code editor written in JavaScript (built-editor.js and built-editor.css).
+[Orion](http://www.eclipse.org/orion/) is an Open Source Platform For Cloud Based Development. It provides a standalone code editor written in JavaScript (built-editor.js and built-editor.css).
 
 **tern.orion** gives you the capability to use [tern.js](https://github.com/marijnh/tern) in a [Orion](http://www.eclipse.org/orion/) editor like the [CodeMirror Tern addon](http://ternjs.net/doc/demo.html)
 
