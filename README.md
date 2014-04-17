@@ -7,6 +7,8 @@ tern.orion
 
 **tern.orion** gives you the capability to use [tern.js](https://github.com/marijnh/tern) in a [Orion](http://www.eclipse.org/orion/) editor like the [CodeMirror Tern addon](http://ternjs.net/doc/demo.html)
 
+Note that Orion could be interested to integrate Tern. See [bug 432940](https://bugs.eclipse.org/bugs/show_bug.cgi?id=432940)
+
 # Features
 
 ## Completion 
