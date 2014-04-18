@@ -19,7 +19,7 @@ If you open completion, on Array variable, you will see functions of the array :
 
 If you apply the completion, it will generate the signature of the selected function : 
 
-![Tern Orion Completion Apply](https://github.com/angelozerr/tern.ace/wiki/images/TernOrion_CompletionApply.png)
+![Tern Orion Completion Apply](https://github.com/angelozerr/tern.orion/wiki/images/TernOrion_CompletionApply.png)
 
 Use tab, to switch to next parameter.
 
