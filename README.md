@@ -32,7 +32,7 @@ Import in your HTML page :
  * Orion editor built-editor.js and built-editor.css
  * [tern-orion.js](https://github.com/angelozerr/tern.orion/blob/master/lib/tern-orion.js)
 
-Create Orion editor and add tern compeltion : 
+Create Orion editor and add tern completion : 
 
 	require(["orion/editor/edit", "orion/tern/ternServer"], function(edit, mTernServer) {
 		var editor = edit({
