@@ -23,6 +23,8 @@ If you apply the completion, it will generate the signature of the selected func
 
 Use tab, to switch to next parameter.
 
+See [Tern-Completions](https://github.com/angelozerr/tern.orion/wiki/Tern-Completions) for more samples of completion (jQuery, Angular, etc).
+
 # Structure
 
 The basic structure of the project is given in the following way:
