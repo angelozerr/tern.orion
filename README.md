@@ -9,6 +9,8 @@ tern.orion
 
 Note that Orion could be interested to integrate Tern. See [bug 432940](https://bugs.eclipse.org/bugs/show_bug.cgi?id=432940)
 
+You can find too an [Eclipse IDE wizard](https://github.com/angelozerr/tern.java/wiki/Tern-Toolings#wizard-for-tern-with-orion) which generates Orion editor with Tern.
+
 # Features
 
 ## Completion 
