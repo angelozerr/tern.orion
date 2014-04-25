@@ -23,6 +23,31 @@ If you apply the completion, it will generate the signature of the selected func
 
 Use tab, to switch to next parameter.
 
+See [here](https://github.com/angelozerr/tern.orion/wiki/Tern-Completions) for more samples of completion (jQuery, Angular, etc).
+
+# How to use it?
+
+Import in your HTML page : 
+
+ * Orion editor built-editor.js and built-editor.css
+ * [tern-orion.js](https://github.com/angelozerr/tern.orion/blob/master/lib/tern-orion.js)
+
+Create Orion editor and add tern completion : 
+
+	require(["orion/editor/edit", "orion/tern/ternServer"], function(edit, mTernServer) {
+		var editor = edit({
+			lang: "js"
+		});
+
+		// tern server
+		var defs = []; // load defs
+		var plugins = {}; // load plugins
+		var ternServer = new mTernServer.TernServer({defs: defs, plugins: plugins});
+
+		// tern completion
+		ternServer.addContentAssistProvider(editor);
+	});
+	
 # Structure
 
 The basic structure of the project is given in the following way:
